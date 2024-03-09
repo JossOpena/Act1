@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+  }
+
+  .image-container {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
